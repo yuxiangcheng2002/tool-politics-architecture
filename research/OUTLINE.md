@@ -1,15 +1,15 @@
 # Research Outline: Tool Politics in Architecture
-## AI Image Generation as Ideological Infrastructure
+## ChatGPT / LLMs as Ideological Infrastructure
 
-**Project:** Expanding Yuxiang Cheng's "Interfacing Language Model" (2025) into architectural AI tool critique  
+**Project:** Expanding Yuxiang Cheng's "Interfacing Language Model" (2025) into a full critical theory of LLMs  
 **Scope:** 10 research chapters, thesis-quality notes  
-**Tool under examination:** AI image generation systems (Midjourney, Stable Diffusion, DALL-E) in architectural visualization and design representation
+**Tool under examination:** ChatGPT and large language models (LLMs) as cognitive infrastructure across design and creative professions
 
 ---
 
 ## Central Thesis
 
-AI image generation systems in architecture are not neutral productivity tools. They are ideological machines — encoding aesthetic defaults, political economies of labor, environmental costs, and epistemological conditions — that restructure architectural imagination, authorship, and representation from within. The "prompt" inherits both the speech-act's performative force and the executable command's machinic authority, while the latent space colonizes the architect's visual imagination with statistically averaged aesthetics. To resist this requires not abandonment but a critical practice of refusal, transparency, and speculative redesign.
+Large language models, and the chat interfaces through which they are accessed, are not neutral cognitive tools. They are ideological machines — shaped by specific political economies of data extraction and labor, constituted by interface designs that naturalize specific subject positions and normative frameworks, and governed by hidden governance layers that operate as law without the consent of those subject to them. Architecture and design are one domain among many in which LLMs have restructured workflow, displaced expertise, and concentrated cognitive infrastructure in the hands of a small number of corporations. The critical response is not abandonment but the cultivation of critical use: politically informed, collectively oriented, speculatively open engagement with tools that are, like all technologies, still being made.
 
 ---
 
@@ -18,31 +18,30 @@ AI image generation systems in architecture are not neutral productivity tools. 
 ### Core Concept Map
 
 ```
-YUXIANG'S LLM PAPER                     →   ARCHITECTURE EXTENSION
+YUXIANG'S LLM PAPER (2025)               →   THIS RESEARCH EXTENSION
 ─────────────────────────────────────────────────────────────────────
-GPU cluster                              →   GPU cluster (same infra)
-Web distribution layer                   →   API / Discord bot (Midjourney)
-Transformer attention (tool machine)     →   Diffusion U-Net (tool machine)
-Text prompt → text output                →   Text prompt → image output
-Textual labor / epistemic alienation     →   Visual/spatial labor alienation
-Prod-user                                →   Architect as prod-user
-Staff Experience Designer                →   AI visualization specialist
-Blackboxed LLM                           →   Blackboxed diffusion model
-General Intellect in language            →   General Intellect in aesthetics
+Prod-user relation                        →   LLM as service/surveillance hybrid
+Training data as general intellect        →   Common Crawl / Books3 as enclosure
+RLHF as alignment labor                   →   Global South outsourcing (Sama/Kenya)
+Chat interface                            →   Ideology machine (Galloway + Althusser)
+System prompt                             →   Hidden law (Kittler + Derrida)
+Subscription tiers                        →   Vendor lock-in / cognitive dependency
+Environmental cost                        →   Strubell + hydrological cost
+Copyright / training data                 →   NYT v. OpenAI, Silverman v. OpenAI
 ```
 
 ### Key Theoretical Moves
 
-1. **Marx** → machinery as fixed capital absorbing living labor → GPU farms as automated aesthetic production
-2. **Galison** → black box as behaviorist epistemology → diffusion model as statistical "enemy" tamed
-3. **Lacan** → syntax/semantics split → diffusion as Imaginary-order machine (coherent visual wholes from pure statistics)
-4. **Kittler** → media materialism, code as writing → layers of abstraction hiding hardware reality
-5. **Galloway** → interface as ideology → Midjourney Discord UI embedding defaults and politics
-6. **Derrida/Austin** → prompt as speech act with iterability → design brief without authorial intent
-7. **Empirical** → architectural workflows, aesthetic homogenization, labor displacement
-8. **Political Economy** → environmental costs, copyright, subscription capture
-9. **Aesthetics** → Benjamin, Virilio, defaults and bias
-10. **Speculative** → traditions of refusal, open-source alternatives, pedagogical proposals
+1. **Marx** → machinery as fixed capital absorbing living labor → LLM as crystallized general intellect
+2. **Galison** → black box as behaviorist epistemology → LLM as statistical subject without subject
+3. **Lacan** → syntax/semantics split → LLM as Imaginary-order machine producing fluent outputs without understanding
+4. **Kittler** → media materialism, readable/writable distinction → system prompt as law; users as read-only subjects
+5. **Galloway** → interface as ideology → chat UI as threshold that produces specific subjects
+6. **Derrida/Austin** → iterability, trace, supplement → system prompt as hidden constitution; model voice as palimpsest
+7. **Empirical (Ch.07)** → workflow transformation, de-skilling, design professions
+8. **Political Economy (Ch.08)** → data enclosure, RLHF labor, vendor lock-in, environmental cost
+9. **Interface Ideology (Ch.09)** → conversational illusion, interpellation, fluency fetish, system prompt as law
+10. **Speculative (Ch.10)** → refusal traditions, open-source alternatives, speculative interface designs, critical pedagogy
 
 ---
 
@@ -56,80 +55,81 @@ General Intellect in language            →   General Intellect in aesthetics
 | 04 | Kittler's Media | Literature, Media, Info Systems | Media materialism → stacked abstraction |
 | 05 | Galloway's Interface | The Interface Effect | Interface as ideology machine |
 | 06 | Derrida's Speech Acts | "Signature Event Context" + Austin | Prompt as iterable performative |
-| 07 | AI Arch Practice | Empirical / contemporary | Workflow, aesthetic, authorship |
-| 08 | Political Economy | Various | Labor, copyright, environment |
-| 09 | Aesthetics & Ideology | Benjamin, Virilio | Representation politics |
-| 10 | Speculative Refusal | Woods, Archigram, OS tools | Alternative practices |
+| 07 | LLMs in Design Practice | Braverman; AIA Survey 2024 | Workflow transformation, de-skilling |
+| 08 | Political Economy of LLMs | Marx; Strubell; TIME 2023 | Data enclosure, labor, environment |
+| 09 | Chat Interface as Ideology | Galloway; Althusser; Kittler | Interpellation, fluency fetish, system prompt |
+| 10 | Speculative Refusal | Illich; Dunne & Raby; Winner | Refusal traditions, critical use |
 
 ---
 
 ## Key Arguments Per Chapter
 
 ### Ch.01 — Marx: The Machine That Thinks
-- Diffusion model maps precisely to Marx's tripartite: GPU (motive) → API/CDN (transmitting) → attention/U-Net (tool)
-- General Intellect: architectural history, aesthetic conventions, photorealistic rendering — all crystallized as fixed capital
-- The architect's creative labor is deskilled by relative surplus value extraction
-- **Gotcha**: Fragment on Machines is incomplete, contested text — autonomists overread it; but the insight about knowledge becoming machine stands
+- LLM maps to Marx's tripartite: GPU cluster (motive) → API/CDN (transmitting) → Transformer attention (tool)
+- General Intellect: the accumulated textual production of human civilization crystallized as fixed capital
+- The architect's/writer's creative labor is deskilled by relative surplus value extraction
+- **Gotcha**: Fragment on Machines is an incomplete, contested text — but the insight about knowledge becoming machine stands
 
 ### Ch.02 — Galison: The Black Box as Epistemology
 - WWII AA predictor: servo-mechanism as first behavioral black box
 - Wiener's key move: treating the enemy as a statistical pattern, not a subject
-- This same move made AI image generation possible: the "building" becomes a statistical distribution, not a design intention
+- This same move made LLMs possible: the "meaning" of a sentence becomes a statistical distribution, not an intention
 - **Gotcha**: Galison is not anti-technology — he's tracing epistemological shifts, not moralizing
 
 ### Ch.03 — Lacan: The Imaginary Colonized
 - Seminar II introduces cybernetics as "science of pure syntax"
-- For Lacan, the Imaginary register is the domain of coherent wholes, gestalt, visual completeness
-- Diffusion models produce exactly Imaginary objects: visually coherent, spatially plausible, semantically hollow
-- **Gotcha**: Lacan's cybernetics lecture is dense and often misread — he's not saying machines can think, but that formal syntax can simulate thought's surface
+- LLMs produce outputs that are linguistically coherent, semantically plausible, and referentially hollow
+- The prod-user, interpellated as a subject receiving genuine responses, is addressed by the Imaginary
+- **Gotcha**: Lacan's cybernetics lecture is dense and often misread — he's not saying machines can think
 
 ### Ch.04 — Kittler: The Hardware Speaks
-- "Only that which is switchable exists" — architectural drawings have become bit patterns
-- Media materialism: the material base (GPU silicon, VRAM) determines what aesthetic forms are possible
-- Stack: from CUDA kernels to Discord UI — each layer hides the one below
-- **Gotcha**: Kittler is often read as technological determinism; more accurately, he's exposing what gets hidden by humanist accounts
+- "Only that which is switchable exists" — all knowledge has become bit patterns
+- Media materialism: the material base (GPU silicon, VRAM, power grid) determines what cognitive forms are possible
+- Stack: from CUDA kernels to chat UI — each layer hides the one below; system prompt is the hidden law
+- **Gotcha**: Kittler is often read as determinism; more accurately, he's exposing what gets hidden
 
 ### Ch.05 — Galloway: The Interface Judges
 - Interface is not a window but a threshold — it produces relations, not just views
-- Midjourney's Discord interface: typing prompts in a shared channel, seeing others' generations — this is social aesthetics
-- Ideology embedded in defaults: /imagine, aspect ratio 1:1, style raw vs. standard
-- **Gotcha**: Galloway's "inoperativity" is from Agamben — there's a specific genealogy here worth tracing
+- The chat interface: minimalism as realist ideology — suppression of mediation disguised as transparency
+- Defaults are political decisions; the "helpful assistant" persona is a subject position, not a neutral description
+- **Gotcha**: Galloway's "inoperativity" is from Agamben — there's a specific genealogy worth tracing
 
 ### Ch.06 — Derrida/Austin: The Prompt as Act
-- Austin: performatives don't describe, they do — "I hereby open this session"
+- Austin: performatives don't describe, they do — "write me a brief" performs the production of a brief
 - Derrida's critique: iterability means the speech act works even without original intention
-- Prompt: "a brutalist tower at sunset, cinematic, 8k" — who speaks? to whom? with what intent?
-- The system prompt ("You are a helpful assistant" / "You are an architect") as ontological declaration
+- System prompt as constitutional document: precedes and conditions all subsequent interaction
 - **Gotcha**: Austin distinguishes locutionary/illocutionary/perlocutionary; prompts collapse all three
 
-### Ch.07 — AI Arch Practice: The Workflow
-- 2022 watershed: Midjourney v3, SD launch — architectural community adopts immediately
-- The "Midjourney aesthetic": glass-and-concrete drama, liminal scale, soft haze, impossible geometries
-- Training data: LAION-5B + architectural image archives — Zaha Hadid parametricism overrepresented
-- Competition submissions 2023-2024: aesthetic convergence documented
-- **Gotcha**: Some architects use this critically — noise, error, the uncanny — not just as rendering tool
+### Ch.07 — LLMs in Design Practice: The Workflow
+- 2022 watershed: ChatGPT launch → immediate adoption in writing, research synthesis, code generation
+- Architecture as one case: prompt-as-design-brief, zoning code parsing, Grasshopper script generation
+- De-skilling thesis (Braverman): LLMs displace expertise rather than augmenting it for novices
+- The chat interface's epistemological constraints: privileges propositional over tacit/spatial/haptic knowledge
+- **Gotcha**: Augmentation vs. displacement — the distinction holds for experts, collapses for learners
 
 ### Ch.08 — Political Economy: Costs & Controls
-- Labor: visualization specialists, rendering artists displaced first; now junior architects
-- LAION-5B: scraped training data includes copyrighted architectural photography and drawings
-- Subscription capture: Midjourney $10-$120/mo, Discord-dependent, no export of your style
-- Environmental: diffusion model inference is GPU-intensive; training costs enormous
-- **Gotcha**: Environmental cost is real but often used to dismiss rather than redesign
+- Training data as primitive accumulation: Common Crawl, Books3, web as unconsented commons enclosure
+- RLHF and the Kenyan workers: $2/hr to process extreme content — alignment labor externalized to Global South
+- Vendor lock-in cycle: free → dependency → paid tier; Copilot embedded in Office monopoly
+- Environmental cost: Strubell et al. on training; 500ml water per ChatGPT conversation; sacrifice zones
+- NYT v. OpenAI, Silverman v. OpenAI: training data as expropriation of intellectual property
+- **Gotcha**: Open-source models don't escape training data politics — the enclosure has already occurred
 
-### Ch.09 — Aesthetics & Ideology: What Gets Represented
-- Benjamin: aura → mechanical reproduction → now parametric/statistical reproduction
-- Virilio: logistics of perception — the speed of AI generation changes what architects can imagine
-- Geographic bias: Global South architecture underrepresented; European modernism dominant
-- The promptable uncanny: spaces that look inhabitable but aren't — Freud's "homely/unhomely"
-- **Gotcha**: Not all aesthetic homogenization is bad — the question is who controls the default
+### Ch.09 — Interface Ideology: The Chat UI
+- Conversational illusion: chat borrows social authority of dialogue while evacuating its reciprocity
+- The "helpful, harmless, honest" framework as normative imposition masquerading as neutral consensus
+- Interpellation (Althusser): the "helpful assistant" persona hails user into client subject position
+- Fluency fetish: smooth prose as commodity fetish — conceals conditions of production behind surface appearance
+- System prompt as hidden law: Kittler's readable/writable distinction — users read; developers write the terms
+- **Gotcha**: Different LLMs (Claude, Gemini, Copilot) embed different ideological defaults — none is neutral
 
 ### Ch.10 — Speculative Refusal: Alternatives
-- Lebbeus Woods: unbuilt architecture as resistance to buildability
-- Paper Architecture (USSR): refusal of commission, retreat into representation
-- ComfyUI, local SD: transparency through open weights, visible node graphs
-- Ethical training: ROOTS corpus, community consent models
-- Pedagogy: teach the architecture of the tool, not just prompting technique
-- **Gotcha**: "Slow tools" can be recuperated by capital too — the alternative must be structural, not aesthetic
+- Luddites: not technophobia but defense of collective interests against technologically mediated capital
+- Illich's convivial tools: tools that extend vs. tools that restructure user agency
+- Open-source LLMs (Llama, Mistral): partial refusal — changes subscription economics but not training data politics
+- Speculative interfaces: inline attribution, energy cost display, slow mode, collective authorship tracker
+- Pedagogy: teach AI tools as political objects, not skills — technical literacy + political economy + critical use
+- **Gotcha**: Critical use is not non-use — it is politically informed engagement; Latour's warning against paralytic critique
 
 ---
 
@@ -137,44 +137,54 @@ General Intellect in language            →   General Intellect in aesthetics
 
 ### The Blackbox Stack
 ```
-User types prompt in Discord
+User types query in chat interface
         ↓
-Midjourney API receives text
+System prompt precedes and frames the query (invisible to user)
         ↓
-CLIP text encoder (OpenAI) encodes semantic content
+Tokenization: text → integer sequences
         ↓
-Latent space sampling (statistical distribution)
+Transformer attention (trained on ~1.4 trillion tokens of text)
         ↓
-U-Net diffusion (iterative denoising)
+RLHF fine-tuning: human preference signal shapes outputs
         ↓
-VAE decoder (latent → pixel)
+Safety/alignment layer: trained refusals and moderation
         ↓
-CDN delivery → Discord image embed
+Detokenization: probability distribution → text
         ↓
-Architect downloads, presents as "design vision"
+Interface renders response as prose
+        ↓
+User reads as if encountering understanding
 ```
-At each layer: technical opacity. The architect understands none of these steps.
+At each layer: technical opacity. The user understands none of these steps.
 
-### The Aesthetic Pipeline
+### The Training Data Pipeline
 ```
-Architectural photography (1900-2022)
-+ Film/game concept art (aestheticized)
-+ Photorealistic renders (Enscape, V-Ray conventions)
-+ Social media architecture (Instagram, Pinterest)
-        ↓ scraped into LAION-5B
-        ↓ compressed into latent space
-        ↓ crystallized as General Intellect
-        ↓ reproduced on demand
-= "Design vision" that is actually historical average
+Accumulated textual production of internet era (1991-2022)
++ Academic papers (Semantic Scholar, arXiv, PubMed)
++ Books (Project Gutenberg + Books3 torrented corpora)
++ News archives (licensed and unlicensed)
++ Code repositories (GitHub public repos)
++ Social media discussions (Reddit, Stack Overflow)
+        ↓ scraped into Common Crawl / The Pile
+        ↓ deduplicated, filtered, tokenized
+        ↓ compressed into transformer weights
+        ↓ fine-tuned with RLHF annotation
+        ↓ crystallized as "model knowledge"
+        ↓ deployed as "helpful assistant"
+= "AI response" that is actually statistical compression of
+  human writing, without attribution or compensation
 ```
 
-### Labor Displacement Timeline
+### The Prod-User Relation (After Cheng 2025)
 ```
-2020: Photorealistic rendering takes 8h of skilled artist time
-2022: SD/MJ can approximate in 30 seconds, $0.05
-2023: Junior architect render packages eliminated from firm budgets
-2024: "AI visualization specialist" appears as new hybrid role
-2025: Architecture schools debate whether to teach or ban AI tools
+User believes: consuming a service (query → response)
+What is actually happening:
+  User query → model learns failure patterns
+  User ratings → RLHF preference signal
+  User data → training data for next model version
+  User subscription → revenue for model development
+= User is simultaneously consumer AND unwaged producer
+  of the model's improvement
 ```
 
 ---
@@ -193,9 +203,13 @@ Architectural photography (1900-2022)
 
 6. Derrida: "A written sign carries with it a force of breaking with its context." (Margins of Philosophy, 1984)
 
-7. Benjamin: "In the age of mechanical reproduction, the work of art... loses its aura." (Work of Art essay)
+7. Althusser: "Ideology represents the imaginary relationship of individuals to their real conditions of existence." (Lenin and Philosophy, 1970)
+
+8. Illich: "Tools for conviviality are those which give each person who uses them the greatest opportunity to enrich the environment with the fruits of his or her vision." (Tools for Conviviality, 1973)
+
+9. Cheng (2025): The prod-user produces the model's improvement through use — unwaged labor disguised as service consumption.
 
 ---
 
-*Last updated: March 2026*
-*Research companion for architecture theory assignment*
+*Last updated: March 2026*  
+*Research companion for architecture/media theory assignment — tool under examination: ChatGPT / LLMs*
