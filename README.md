@@ -1,0 +1,1 @@
+# Tool Politics in Architecture\n\nDeep research expanding Yuxiang Cheng's 'Interfacing Language Model' (2025) into architectural AI tool critique.\n\nFor MCC/Architecture critical theory assignment.\n
